@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./docs/images/banner.png" alt="Todo List Banner" width="100%">
+</p>
+
 <h1 align="center">
 ✅ Todo List
 </h1>
@@ -11,7 +15,11 @@
 
 </p>
 
-A modern and responsive **Todo List** application built with **React** that helps users organize their daily tasks with an intuitive and clean interface.
+<p align="center">
+
+A modern and responsive <b>React Todo List</b> application with an elegant UI, animated interactions, and reusable components.
+
+</p>
 
 ## 🌐 Live Demo
 
@@ -100,29 +108,63 @@ npm run build
 
 ---
 
-# 📂 Project Structure
+# 🏗️ Project Architecture
 
 ```
-src
+App
 │
-├── assets
-│
-├── components
-│   ├── Button
-│   ├── Navbar
-│   ├── TaskCard
-│   ├── TaskCreatorModal
+├── TaskListNav
+├── TaskList
+│   ├── TaskListContent
 │   ├── TaskCreatorStarter
-│   └── TaskWrapper
+│   └── TaskCreatorModal
 │
-├── styles
-│   ├── global.css
-│   ├── variables.css
-│   ├── utilities.css
-│   └── responsive.css
+└── Button
+```
+
+---
+
+# 📂 Folder Structure
+
+```
+Todo-list
 │
-├── App.jsx
-└── main.jsx
+├── docs
+│   └── images
+│       ├── desktop.png
+│       └── mobile.png
+│
+├── public
+│
+├── src
+│   │
+│   ├── components
+│   │   ├── App.js
+│   │   ├── Button.js
+│   │   ├── TaskCreatorModal.js
+│   │   ├── TaskCreatorStarter.js
+│   │   ├── TaskList.js
+│   │   ├── TaskListContent.js
+│   │   └── TaskListNav.js
+│   │
+│   ├── styles
+│   │   ├── App.css
+│   │   ├── global.css
+│   │   ├── navbar.css
+│   │   ├── responsive.css
+│   │   ├── scrollbar.css
+│   │   ├── TaskCreatorModal.css
+│   │   ├── TaskCreatorStarter.css
+│   │   ├── TaskList.css
+│   │   ├── TaskListContent.css
+│   │   └── variables.css
+│   │
+│   └── index.js
+│
+├── package.json
+├── package-lock.json
+├── README.md
+└── .gitignore
 ```
 
 ---
