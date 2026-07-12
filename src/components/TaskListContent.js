@@ -1,5 +1,5 @@
-import Button from "../Button/Button";
-import "./TaskListContent.css";
+import Button from "./Button";
+import "../styles/TaskListContent.css";
 export default function TaskListContent({
   title,
   description,

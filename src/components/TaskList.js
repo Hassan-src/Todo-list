@@ -1,8 +1,8 @@
 import { useState } from "react";
-import TaskCreatorModal from "../TaskCreatorModal/TaskCreatorModal";
-import TaskListContent from "../TaskListContent/TaskListContent";
-import TaskCreatorStarter from "../TaskCreatorStarter/TaskCreatorStarter";
-import "./TaskList.css";
+import TaskCreatorModal from "./TaskCreatorModal";
+import TaskListContent from "./TaskListContent";
+import TaskCreatorStarter from "./TaskCreatorStarter";
+import "../styles/TaskList.css";
 export default function TaskList({
   onTaskArray,
   taskArray,

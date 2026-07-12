@@ -1,11 +1,10 @@
 import { useState } from "react";
-import TaskList from "../TaskList/TaskList";
-import TaskListNav from "../TaskListNav/TaskListNav";
-import "./App.css";
-import "../../styles/global.css";
-import "../../styles/variables.css";
-import "../../styles/scrollbar.css";
-import "../../styles/responsive.css";
+import TaskList from "./TaskList";
+import TaskListNav from "./TaskListNav";
+import "../styles/App.css";
+import "../styles/global.css";
+import "../styles/variables.css";
+import "../styles/scrollbar.css";
 export default function App() {
   const [taskArray, setTaskArray] = useState([]);
   const [isAdded, setIsAdded] = useState(false);

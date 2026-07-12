@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "../styles/navbar.css";
 export default function TaskListNav({ userName, onHamBtn, hamBtn, isAdded }) {
   return (
     <div className="nav-bar">

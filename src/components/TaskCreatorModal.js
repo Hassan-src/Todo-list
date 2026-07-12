@@ -1,8 +1,6 @@
-import Button from "../Button/Button";
-import "./TaskCreatorStarter.css";
-export default function TaskCreatorStarter({
-  userName,
-  setUserName,
+import Button from "./Button";
+import "../styles/TaskCreatorModal.css";
+export default function TaskCreatorModal({
   title,
   setTitle,
   description,
@@ -12,21 +10,8 @@ export default function TaskCreatorStarter({
   onSubmitStarterForm,
 }) {
   return (
-    <div className="show-on-start ">
+    <div className="task-creator-modal">
       <form onSubmit={onSubmitStarterForm}>
-        <p>Create a Task!</p>
-        <div className="starter-form-detail">
-          <label htmlFor="User-name">User Name:</label>
-          <input
-            type="text"
-            id="User-name"
-            value={userName}
-            onChange={(e) => setUserName(e.target.value)}
-            minLength={3}
-            maxLength={6}
-            placeholder="...3 to 6 Characters"
-          />
-        </div>
         <div className="starter-form-detail">
           <label htmlFor="Title">Task title:</label>
           <input
@@ -46,13 +31,11 @@ export default function TaskCreatorStarter({
             rows={5}
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            minLength={0}
-            maxLength={60}
             required
           />
         </div>
         <div className="starter-form-detail">
-          <p>Importance:</p>
+          <label htmlFor="Importance">Importance:</label>
           <select
             value={importance}
             onChange={(e) => setImportance(e.target.value)}
@@ -63,7 +46,7 @@ export default function TaskCreatorStarter({
           </select>
         </div>
         <div className="starter-form-button">
-          <Button>Add Task</Button>
+          <Button>Add Task!</Button>
         </div>
       </form>
     </div>
