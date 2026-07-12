@@ -1,7 +1,9 @@
 import "../styles/navbar.css";
+// Nav bar functionality
 export default function TaskListNav({ userName, onHamBtn, hamBtn, isAdded }) {
   return (
     <div className="nav-bar">
+      {/* only show the ham button when the first task is created */}
       {isAdded && (
         <button
           className={`hamburger-button ${hamBtn ? "ham-open" : ""}`}

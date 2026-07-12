@@ -17,17 +17,22 @@ export default function TaskList({
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [importance, setImportance] = useState("low");
+  // Form submit functionality
   function handleOnSubmitForm(e) {
     e.preventDefault();
+    // Generating a randaom id for each task
     const id = crypto.randomUUID();
+    // Array structure
     const task = { title, description, importance, id, done: false };
     onTaskArray(task);
+    // Reseting after passing the array
     setTitle("");
     setDescription("");
     setImportance("low");
   }
   return (
     <div className="tasks-menu">
+      {/* If there is a task created isAdded will be true so the starter form only render once */}
       {!isAdded && (
         <TaskCreatorStarter
           userName={userName}
@@ -41,6 +46,7 @@ export default function TaskList({
           onSubmitStarterForm={handleOnSubmitForm}
         />
       )}
+      {/* Only when there is a task the task wrapper will be rendered */}
       {taskArray.length > 0 && (
         <div className="task-wrapper">
           {taskArray.map((task) => (
@@ -57,7 +63,7 @@ export default function TaskList({
           ))}
         </div>
       )}
-
+      {/* Show the task creator form on button press */}
       {hamBtn && (
         <TaskCreatorModal
           title={title}

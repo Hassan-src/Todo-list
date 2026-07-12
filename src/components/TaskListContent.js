@@ -1,5 +1,6 @@
 import Button from "./Button";
 import "../styles/TaskListContent.css";
+// Each task functionality
 export default function TaskListContent({
   title,
   description,

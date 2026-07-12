@@ -1,5 +1,6 @@
 import Button from "./Button";
 import "../styles/TaskCreatorModal.css";
+// The task form functionality
 export default function TaskCreatorModal({
   title,
   setTitle,
