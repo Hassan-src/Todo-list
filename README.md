@@ -2,18 +2,16 @@
   <img src="./docs/images/banner.png" alt="Todo List Banner" width="100%">
 </p>
 
-<h1 align="center">
+<h1>
 ✅ Todo List
 </h1>
 
-<p align="center">
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
 ![CSS](https://img.shields.io/badge/CSS3-Styled-blue?logo=css3)
 ![License](https://img.shields.io/badge/License-MIT-green)
-</p>
 
-<p align="center">
+<p>
 A modern and responsive <b>React Todo List</b> application with an elegant UI, animated interactions, and reusable components.
 </p>
 
