@@ -1,10 +1,16 @@
-# ✅ Todo List
+<h1 align="center">
+✅ Todo List
+</h1>
+
+<p align="center">
 
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
 ![CSS](https://img.shields.io/badge/CSS3-Styled-blue?logo=css3)
 ![Vite](https://img.shields.io/badge/Vite-Build-purple?logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
+</p>
 
 A modern and responsive **Todo List** application built with **React** that helps users organize their daily tasks with an intuitive and clean interface.
 
@@ -35,11 +41,13 @@ A modern and responsive **Todo List** application built with **React** that help
 
 # 🛠️ Built With
 
-- React
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- Vite
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,js,html,css,vite&theme=light" />
+</p>
+
+<p align="center">
+  React • JavaScript (ES6+) • HTML5 • CSS3 • Vite
+</p>
 
 ---
 
@@ -47,19 +55,15 @@ A modern and responsive **Todo List** application built with **React** that help
 
 ## Desktop
 
-![Desktop Screenshot](./docs/images/desktop.png)
-
-```
-images/desktop.png
-```
+<p align="center">
+  <img src="./docs/images/desktop.png" width="900"/>
+</p>
 
 ## Mobile
 
-![Mobile Screenshot](./docs/images/mobile.png)
-
-```
-images/mobile.png
-```
+<p align="center">
+  <img src="./docs/images/mobile.png" width="250"/>
+</p>
 
 ---
 
