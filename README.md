@@ -7,7 +7,6 @@
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
 ![CSS](https://img.shields.io/badge/CSS3-Styled-blue?logo=css3)
-![Vite](https://img.shields.io/badge/Vite-Build-purple?logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 </p>
@@ -42,11 +41,11 @@ A modern and responsive **Todo List** application built with **React** that help
 # 🛠️ Built With
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,js,html,css,vite&theme=light" />
+  <img src="https://skillicons.dev/icons?i=react,js,html,css&theme=light" />
 </p>
 
 <p align="center">
-  React • JavaScript (ES6+) • HTML5 • CSS3 • Vite
+  React • JavaScript (ES6+) • HTML5 • CSS3
 </p>
 
 ---
