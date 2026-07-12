@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=swap");
+/* =============================
+       GLOBAL RESET & VARIABLES
+===============================*/
+:root {
+  /* Texts props */
+  --h1-size: 3.125rem;
+  --h2-size: 2.5rem;
+  --p-size: 1.25rem;
+  --input-size: 1.6rem;
+  --font-family: "Playpen Sans Hebrew", cursive;
+  --span-font-size: 0.8rem;
+  /* Spacing */
+  --spacing-super-small: 0.625rem;
+  --spacing-small: 1.25rem;
+  --spacing-medium: 1.875rem;
+  --spacing-large: 2.5rem;
+  --spacing-extra-large: 3.125rem;
+  /* Buttons props */
+  --button-shadow: 0px 0px 20px 0px rgba(255, 225, 184, 0.63);
+  --button-hover-shadow: 0px 8px 20px 0px rgba(26, 14, 0, 0.63);
+  /* Colors */
+  --background-color: rgb(255, 225, 184);
+  --button-background-color: rgb(255, 149, 0);
+  --button-hover-background-color: rgb(209, 122, 0);
+  --sidebar-background-color: rgb(255, 168, 46);
+  --tasks-background-color: rgba(255, 225, 184, 0.5);
+  /* --input-background-color: rgb(255, 244, 230); */
+  --input-decoration-color: rgb(117, 68, 0);
+  --h1-color: rgb(117, 68, 0);
+  --user-name-color: rgb(117, 68, 0);
+  --texts-properties-color: rgb(26, 15, 0);
+  /* Box Shadow*/
+  --universal-box-shadow: 0px 0px 20px 0px rgba(26, 14, 0, 0.63);
+  --universal-border-radius: 50px;
+}

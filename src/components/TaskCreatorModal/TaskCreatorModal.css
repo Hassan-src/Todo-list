@@ -1,0 +1,108 @@
+/* ===========================
+          TASK CREATOR MODAL
+=============================*/
+.task-creator-modal {
+  width: 30%;
+  height: 96%;
+  background: var(--background-color);
+  border-radius: var(--universal-border-radius);
+  box-shadow: var(--universal-box-shadow);
+  margin-left: var(--spacing-super-small);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+}
+.task-creator-modal form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.task-creator-modal .starter-form-detail {
+  margin: var(--spacing-super-small) 0;
+}
+.task-creator-modal .starter-form-detail label {
+  font-size: 1rem;
+}
+.task-creator-modal .starter-form-detail input {
+  width: 64%;
+}
+.task-creator-modal .starter-form-button {
+  height: 20%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--spacing-medium);
+}
+.task-creator-modal .starter-form-button button {
+  width: 60%;
+}
+
+/* ===========================
+            Hamburger Button
+=========================== */
+
+.hamburger-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1.4rem;
+  border: none;
+  border-radius: var(--universal-border-radius);
+  background: #f7d9a5;
+  cursor: pointer;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+.ham-open {
+  background: var(--button-hover-background-color);
+}
+/* Icon */
+.hamburger {
+  width: 28px;
+  height: 22px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Bars */
+.bar {
+  position: absolute;
+  width: 28px;
+  height: 3px;
+  background: var(--texts-properties-color);
+  border-radius: var(--universal-border-radius);
+  transition:
+    transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.2s ease;
+}
+.bar:nth-child(1) {
+  transform: translateY(-8px);
+}
+.bar:nth-child(2) {
+  transform: translateY(0);
+}
+.bar:nth-child(3) {
+  transform: translateY(8px);
+}
+/* Open state */
+.ham-open .bar:nth-child(1) {
+  transform: translateY(0) rotate(45deg);
+}
+.ham-open .bar:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.ham-open .bar:nth-child(3) {
+  transform: translateY(0) rotate(-45deg);
+}
+/* Text */
+.hamburger-text {
+  font-weight: 700;
+  transition: opacity 0.25s ease;
+}

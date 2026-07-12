@@ -1,0 +1,337 @@
+/* ========================
+      MAKING IT RESPONSIVE
+==========================*/
+@media only screen and (max-width: 1360px) {
+  :root {
+    --h1-size: 2.8rem;
+    --h2-size: 2rem;
+    --p-size: 1rem;
+  }
+  body {
+    font-size: var(--p-size);
+  }
+  h1 {
+    font-size: var(--h1-size);
+  }
+  h2 {
+    font-size: var(--h2-size);
+  }
+  .nav-bar input {
+    font-size: var(--p-size);
+    width: 31.25rem;
+    margin: 0 0.938rem;
+  }
+  .show-on-start {
+    width: 60%;
+    height: 95%;
+    background-color: var(--background-color);
+  }
+  .show-on-start p {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  :root {
+    --h1-size: 2.2rem;
+    --h2-size: 1.6rem;
+    --p-size: 0.8rem;
+  }
+  body {
+    font-size: var(--p-size);
+  }
+  h1 {
+    font-size: var(--h1-size);
+  }
+  h2 {
+    font-size: var(--h2-size);
+  }
+  .task-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .delete-task {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+  }
+  .show-on-start select {
+    font-size: var(--p-size);
+  }
+  .show-on-start p {
+    font-size: var(--p-size);
+    margin: 0 0 var(--spacing-super-small) 0;
+  }
+  .show-on-start form {
+    padding-top: var(--spacing-medium);
+  }
+  .starter-form-detail input {
+    width: 12.5rem;
+    margin: 0;
+  }
+  .starter-form-button {
+    margin: 0;
+  }
+  .task-creator-modal .starter-form-detail label {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal .starter-form-detail input {
+    width: 50%;
+  }
+  .task-creator-modal .starter-form-detail textarea {
+    padding: var(--spacing-super-small);
+    font-size: var(--p-size);
+    margin-left: var(--spacing-super-small);
+  }
+  .task-creator-modal .starter-form-detail select {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal .starter-form-button {
+    margin-top: var(--spacing-small);
+  }
+  .task-creator-modal .starter-form-button button {
+    width: 50%;
+  }
+  .hamburger-button {
+    padding: var(--spacing-super-small);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  :root {
+    --h1-size: 1.8rem;
+    --h2-size: 1.4rem;
+    --p-size: 1rem;
+  }
+  body {
+    font-size: var(--p-size);
+  }
+  h1 {
+    font-size: var(--h1-size);
+  }
+  h2 {
+    font-size: var(--h2-size);
+  }
+  .delete-task {
+    font-size: 1.3rem;
+  }
+  .nav-bar input {
+    font-size: var(--p-size);
+    width: 25rem;
+  }
+  .task-wrapper {
+    padding: 0 var(--spacing-medium);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .created-task {
+    width: 100%;
+    margin-left: 0;
+  }
+  .show-on-start {
+    width: 100%;
+    height: 100%;
+  }
+  .show-on-start p {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal {
+    height: 80%;
+    top: 0;
+    margin-top: var(--spacing-super-small);
+  }
+  .task-creator-modal .starter-form-detail label {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal .starter-form-detail input::placeholder {
+    opacity: 0;
+  }
+  .task-creator-modal .starter-form-detail textarea {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal .starter-form-detail select {
+    font-size: var(--p-size);
+  }
+  .hamburger-text {
+    display: none;
+  }
+}
+@media only screen and (max-width: 840px) {
+  :root {
+    --h1-size: 1.8rem;
+    --h2-size: 1.4rem;
+    --p-size: 0.9rem;
+  }
+  body {
+    font-size: var(--p-size);
+  }
+  h1 {
+    font-size: var(--h1-size);
+  }
+  h2 {
+    font-size: var(--h2-size);
+  }
+  .delete-task {
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+  }
+  .nav-bar input {
+    font-size: var(--p-size);
+    width: 18.75rem;
+  }
+  .nav-bar-name {
+    display: none;
+  }
+  .show-on-start p {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal {
+    width: 50%;
+  }
+  .task-creator-modal .starter-form-detail label {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal .starter-form-detail textarea {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal .starter-form-detail select {
+    font-size: var(--p-size);
+  }
+}
+@media only screen and (max-width: 670px) {
+  :root {
+    --h1-size: 1.8rem;
+    --h2-size: 1.4rem;
+    --p-size: 0.9rem;
+  }
+  body {
+    font-size: var(--p-size);
+  }
+  h1 {
+    font-size: var(--h1-size);
+  }
+  h2 {
+    font-size: var(--h2-size);
+  }
+  .nav-bar-logo {
+    display: none;
+  }
+  .hamburger-text {
+    display: block;
+  }
+  .show-on-start p {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal {
+    width: 90%;
+    height: 90%;
+    top: 0;
+    margin: var(--spacing-super-small) var(--spacing-super-small);
+  }
+  .task-creator-modal .starter-form-detail label {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal .starter-form-detail textarea {
+    font-size: var(--p-size);
+  }
+  .task-creator-modal .starter-form-detail select {
+    font-size: var(--p-size);
+  }
+}
+@media only screen and (max-width: 550px) {
+  .main {
+    width: 100vw;
+    height: 100vh;
+  }
+  .nav-bar {
+    box-shadow: none;
+    border-radius: none;
+    width: 100%;
+    height: 10%;
+    position: sticky;
+  }
+  .hamburger-button .hamburger-text {
+    display: none;
+  }
+  .show-on-start {
+    width: 100vw;
+    height: 100vh;
+  }
+  .starter-form-detail input {
+    width: 9.375rem;
+  }
+  .show-on-start p {
+    font-size: var(--p-size);
+  }
+  .show-on-start form {
+    margin-top: var(--spacing-extra-large);
+  }
+  .tasks-menu {
+    box-shadow: none;
+    width: 100vw;
+    height: 100vh;
+  }
+  .task-creator-modal {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: var(--spacing-small) auto;
+  }
+}
+@media only screen and (max-width: 450px) {
+  :root {
+    --h1-size: 1.2rem;
+    --h2-size: 1.1rem;
+    --p-size: 0.8rem;
+  }
+  .nav-bar input {
+    width: 13.75rem;
+  }
+  .hamburger-button .hamburger-text {
+    font-size: var(--p-size);
+  }
+  .show-on-start p {
+    font-size: var(--p-size);
+  }
+}
+@media only screen and (max-width: 375px) {
+  :root {
+    --h1-size: 1.2rem;
+    --h2-size: 1.1rem;
+    --p-size: 0.6rem;
+    --input-font-size: 0.8rem;
+  }
+  .nav-bar input {
+    font-size: var(--input-font-size);
+  }
+  .delete-task {
+    padding: 0 var(--spacing-super-small);
+  }
+  .created-task span::before {
+    width: 0.4rem;
+    height: 0.8rem;
+    padding: 0.1rem 0.5rem;
+    margin: var(--spacing-super-small);
+  }
+  .check-box-div::after {
+    display: none;
+  }
+  .task-title {
+    margin: var(--spacing-small);
+  }
+  .show-on-start p {
+    font-size: var(--input-font-size);
+  }
+  .starter-form-detail label,
+  .starter-form-detail select,
+  .starter-form-detail input,
+  .starter-form-detail textarea {
+    font-size: var(--input-font-size);
+  }
+  .task-creator-modal .starter-form-detail label,
+  .task-creator-modal .starter-form-detail select,
+  .task-creator-modal .starter-form-detail input,
+  .task-creator-modal .starter-form-detail textarea {
+    font-size: var(--input-font-size);
+  }
+}
