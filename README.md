@@ -1,70 +1,182 @@
-# Getting Started with Create React App
+# ✅ Todo List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![CSS](https://img.shields.io/badge/CSS3-Styled-blue?logo=css3)
+![Vite](https://img.shields.io/badge/Vite-Build-purple?logo=vite)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Available Scripts
+A modern and responsive **Todo List** application built with **React** that helps users organize their daily tasks with an intuitive and clean interface.
 
-In the project directory, you can run:
+## 🌐 Live Demo
 
-### `npm start`
+🚀 **Live Website:** https://todo-list-five-mu-29.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📂 Repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+💻 **GitHub:** https://github.com/Hassan-src/Todo-list
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# ✨ Features
 
-### `npm run build`
+- ✅ Create new tasks
+- 🗑️ Delete tasks
+- ✔️ Mark tasks as completed
+- 📋 Dynamic task rendering
+- 📱 Fully responsive design
+- 🍔 Animated hamburger menu
+- 🪟 Task creation modal
+- 🎨 Custom designed checkbox
+- 💡 Smooth UI animations
+- ⚛️ Built with reusable React components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 🛠️ Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 📸 Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Desktop
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+![Desktop Screenshot](./docs/images/desktop.png)
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Mobile
 
-## Learn More
+> Add a screenshot here
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+images/mobile.png
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+# 🚀 Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the repository
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/Hassan-src/Todo-list.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Go to the project directory
 
-### Making a Progressive Web App
+```bash
+cd Todo-list
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install dependencies
 
-### Advanced Configuration
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Run the development server
 
-### Deployment
+```bash
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Build for production
 
-### `npm run build` fails to minify
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# 📂 Project Structure
+
+```
+src
+│
+├── assets
+│
+├── components
+│   ├── Button
+│   ├── Navbar
+│   ├── TaskCard
+│   ├── TaskCreatorModal
+│   ├── TaskCreatorStarter
+│   └── TaskWrapper
+│
+├── styles
+│   ├── global.css
+│   ├── variables.css
+│   ├── utilities.css
+│   └── responsive.css
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+# 💡 What I Learned
+
+This project helped me practice and improve my knowledge of:
+
+- React Components
+- Props
+- State Management with `useState`
+- Conditional Rendering
+- Rendering Lists with `map()`
+- Updating State Immutably
+- CSS Flexbox
+- CSS Grid
+- Responsive Design
+- Custom Form Elements
+- CSS Animations
+- Component Organization
+
+---
+
+# 🔮 Future Improvements
+
+- 🔍 Task Search
+- ✏️ Edit Tasks
+- 📌 Task Categories
+- ⭐ Priority Filtering
+- 💾 Local Storage
+- 🌙 Dark Mode
+- 📅 Due Dates
+- 🔔 Notifications
+- 📊 Task Statistics
+
+---
+
+# 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork the project and submit a pull request.
+
+---
+
+# 👨‍💻 Author
+
+### Hassan Esmaeilpour
+
+GitHub:
+https://github.com/Hassan-src
+
+LinkedIn:
+https://www.linkedin.com/in/hassansrc/
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future improvements.
