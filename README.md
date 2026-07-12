@@ -10,7 +10,7 @@ A modern and responsive **Todo List** application built with **React** that help
 
 ## 🌐 Live Demo
 
-🚀 **Live Website:** https://todo-list-five-mu-29.vercel.app/
+🚀 **Live Website:** https://todo-list-xi-nine-59.vercel.app/
 
 ## 📂 Repository
 
@@ -56,7 +56,7 @@ A modern and responsive **Todo List** application built with **React** that help
 > Add a screenshot here
 
 ```
-images/mobile.png
+![Mobile Screenshot](./docs/images/mobile.png)
 ```
 
 ---
