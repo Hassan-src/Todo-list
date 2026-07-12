@@ -47,16 +47,18 @@ A modern and responsive **Todo List** application built with **React** that help
 
 ## Desktop
 
-```
 ![Desktop Screenshot](./docs/images/desktop.png)
+
+```
+images/desktop.png
 ```
 
 ## Mobile
 
-> Add a screenshot here
+![Mobile Screenshot](./docs/images/mobile.png)
 
 ```
-![Mobile Screenshot](./docs/images/mobile.png)
+images/mobile.png
 ```
 
 ---
