@@ -208,9 +208,11 @@ Feel free to fork the project and submit a pull request.
 
 ### Hassan Esmaeilpour
 
-**[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Hassan-src)**
+GitHub:
+https://github.com/Hassan-src
 
-**[![LinkedIn]("https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white")](https://www.linkedin.com/in/hassansrc/)**
+LinkedIn:
+https://www.linkedin.com/in/hassansrc/
 
 ---
 
