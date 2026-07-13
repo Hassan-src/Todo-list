@@ -17,11 +17,11 @@ A modern and responsive <b>React Todo List</b> application with an elegant UI, a
 
 ## 🌐 Live Demo
 
-🚀 **Live Website:** https://todo-list-xi-nine-59.vercel.app/
+🚀 **[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://todo-list-xi-nine-59.vercel.app/)**
 
 ## 📂 Repository
 
-💻 **GitHub:** https://github.com/Hassan-src/Todo-list
+💻 **[![Source Code](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Hassan-src/Todo-list)**
 
 ---
 
