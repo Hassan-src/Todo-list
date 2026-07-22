@@ -1,3 +1,4 @@
+import { useRef, useEffect } from "react";
 import Button from "./Button";
 import "../styles/TaskCreatorStarter.css";
 // Task creator starter form
@@ -12,6 +13,10 @@ export default function TaskCreatorStarter({
   setImportance,
   onSubmitStarterForm,
 }) {
+  const inputElement = useRef(null);
+  useEffect(function () {
+    inputElement.current.focus();
+  }, []);
   return (
     <div className="show-on-start ">
       <form onSubmit={onSubmitStarterForm}>
@@ -26,6 +31,7 @@ export default function TaskCreatorStarter({
             minLength={3}
             maxLength={6}
             placeholder="...3 to 6 Characters"
+            ref={inputElement}
           />
         </div>
         <div className="starter-form-detail">

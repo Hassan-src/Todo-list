@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import Button from "./Button";
 import "../styles/TaskCreatorModal.css";
 // The task form functionality
@@ -10,6 +11,10 @@ export default function TaskCreatorModal({
   setImportance,
   onSubmitStarterForm,
 }) {
+  const inputElement = useRef(null);
+  useEffect(function () {
+    inputElement.current.focus();
+  }, []);
   return (
     <div className="task-creator-modal">
       <form onSubmit={onSubmitStarterForm}>
@@ -22,6 +27,7 @@ export default function TaskCreatorModal({
             maxLength={8}
             value={title}
             onChange={(e) => setTitle(e.target.value)}
+            ref={inputElement}
             required
           />
         </div>
